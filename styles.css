@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #000000;
+  color: #d9d9d9;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1.3fr;
+  position: relative;
+}
+.icons {
+  width: 27px;
+  object-fit: contain;
+}
+.twitter-logo {
+  padding: 1.5rem 0rem 0rem 1rem;
+}
+.twitter-logo > .icons {
+  width: 30px;
+  object-fit: contain;
+}
+.icon-name {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+.icon-name > h3 {
+  padding-left: 0.5rem;
+  line-height: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.icon-name:hover {
+  color: rgb(228, 244, 255);
+  border-radius: 2rem;
+  background-color: #1da1f2;
+}
+.sidebar {
+  height: 100vh;
+  padding-right: 3rem;
+  padding-left: 7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: initial;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+.sidebar-menu {
+  height: 590px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.sidebar-menu > button {
+  background-color: #1da1f2;
+  color: white;
+  padding: 0.7rem 2rem;
+  border: #1da1f2;
+  border-radius: 2rem;
+  font-weight: bold;
+  margin: 1rem 0rem;
+  cursor: pointer;
+}
