@@ -68,3 +68,20 @@ body {
   margin: 1rem 0rem;
   cursor: pointer;
 }
+.sidebar-footer {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 1rem;
+}
+.profile-details > h4,
+small {
+  padding-left: 0.5rem;
+}
+.more > svg {
+  padding-left: 2rem;
+}
+.profile {
+  width: 2.5rem;
+  object-fit: contain;
+  border-radius: 100%;
+}
