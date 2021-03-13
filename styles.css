@@ -18,7 +18,7 @@ body {
   object-fit: contain;
 }
 .twitter-logo {
-  padding: 1.5rem 0rem 0rem 1rem;
+  padding: 2rem 0rem 0rem 1rem;
 }
 .twitter-logo > .icons {
   width: 30px;
@@ -27,7 +27,7 @@ body {
 .icon-name {
   display: flex;
   align-items: center;
-  padding: 1rem;
+  padding: 0.8rem;
 }
 .icon-name > h3 {
   padding-left: 0.5rem;
@@ -36,9 +36,9 @@ body {
   cursor: pointer;
 }
 .icon-name:hover {
-  color: rgb(228, 244, 255);
+  background-color: #031019;
   border-radius: 2rem;
-  background-color: #1da1f2;
+  color: #1da1f2;
 }
 .sidebar {
   height: 100vh;
@@ -72,6 +72,7 @@ body {
   display: flex;
   justify-content: space-around;
   padding-bottom: 1rem;
+  padding-right: 2rem;
 }
 .profile-details > h4,
 small {
