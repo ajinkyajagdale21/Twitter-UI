@@ -202,3 +202,39 @@ small {
 .profile-img {
   padding: 4px;
 }
+.suggestion-page {
+  height: 100vh;
+  padding-right: 3rem;
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 0;
+  right: 0;
+}
+.search-twitter {
+  background-color: #000000;
+  position: sticky;
+  top: 0;
+  right: 0;
+  padding-top: 0.5rem;
+}
+.search-twitter > input {
+  padding: 1rem;
+  width: 110%;
+  background-color: #15181c;
+  border-style: none;
+  border-radius: 1.5rem;
+  font-size: medium;
+  margin-bottom: 4px;
+}
+.newsHead > small {
+  padding: 0;
+}
+.newsHead > .thin-divider {
+  background-color: #031019;
+}
+.newsHead,
+.trending-heading {
+  padding: 1.3rem;
+}
