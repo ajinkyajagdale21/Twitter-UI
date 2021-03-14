@@ -241,6 +241,7 @@ small {
   border-style: none;
   margin-top: 10px;
 }
-.thin-divider {
+.btw-divider {
+  height: 1px;
   background-color: #000000;
 }
